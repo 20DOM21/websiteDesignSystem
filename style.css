@@ -1,0 +1,163 @@
+body {
+    margin: 5px 15px;
+    padding: 0;
+    background-image: url(images/wallpaper.jpg);
+}
+header {
+    position: fixed;
+    z-index: 1;
+}
+h1 {
+    box-sizing:border-box;
+    width: 50%;
+    border: 6px solid darksalmon;
+    border-top-width: 8px;
+    border-bottom-width: 4px;
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    font-family: 'Pushster', cursive;
+    font-size: 50px;
+    text-align: center;
+    padding: 30px auto; 
+    position: fixed;
+    display: inline-block;
+    }
+.label {
+    display: inline-block;
+    position: fixed;
+    top: 5px;
+    right: 15px;
+   width: 45%;
+    }
+.label :visited {
+    color: black;
+}
+.label :hover {
+    color: orangered;
+}
+.label :focus {
+    color: darksalmon;
+}
+a {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;   
+    box-sizing: border-box; 
+    }
+button {
+    margin: 5px;
+    display: inline;
+    float: right;
+    border: 1.5px solid black;
+}
+.label li {
+    list-style: none;
+}
+main {    
+    position: relative;
+    top: 200px;
+}
+.container {
+    border: 5px double darksalmon;
+    padding: 10px;
+    margin: 5px auto;
+}
+h2 {
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+.panel {
+    border: 2px solid black;
+    border-radius: 15%;
+    display: inline-block;
+    width: 19%;
+    margin: auto;
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+}
+.underline {
+    text-decoration: underline;
+}
+#coral {
+    background-color: coral;
+}
+#darksalmon {
+    background-color: darksalmon;
+}
+#darkred {
+    background-color: darkred;
+}
+#brown {
+    background-color: brown;
+}
+#bisque {
+    background-color: bisque;
+}
+#lobstertwo {
+    font-family: 'Lobster Two';
+}
+#spaceMono {
+    font-family: 'Space Mono', monospace;
+}
+#shizuru {
+    font-family: 'Shizuru';
+}
+#oswald {
+    font-family: 'Oswald', sans-serif;
+}
+#licorice {
+    font-family: 'Licorice';
+}
+.normal {
+    font-weight: 400;
+}
+.italic {
+    font-weight: 100;
+    font-style: italic;
+}
+.bold {
+    font-weight: 800;
+}
+#textStyles {
+    font-family: 'Merriweather', serif;
+    bottom: 50px;
+}
+#one {
+   font-weight: 800; 
+   font-size: 30px;
+   font-family: 'Merriweather', serif;
+}
+#two {
+    font-weight: 700; 
+    font-size: 26px;
+    font-family: 'Merriweather', serif;
+}
+#three {
+    font-weight: 600; 
+    font-size: 22px;
+    font-family: 'Merriweather', serif;
+}
+#four {
+    font-weight: 500; 
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+}
+#paragraph {
+    font-weight: 400; 
+    font-size: 14px;
+    font-family: 'Merriweather', serif;
+}
+footer {
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    position: fixed;
+    background-color: darksalmon;
+    height: 35px; 
+}
+
+
