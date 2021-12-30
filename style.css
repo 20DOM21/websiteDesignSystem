@@ -5,7 +5,7 @@ body {
 }
 header {
     position: fixed;
-    z-index: 1;
+    z-index: 2;
 }
 h1 {
     box-sizing:border-box;
@@ -27,7 +27,7 @@ h1 {
     position: fixed;
     top: 5px;
     right: 15px;
-   width: 45%;
+    width: 45%;
     }
 .label :visited {
     color: black;
@@ -45,6 +45,7 @@ a {
     text-transform: uppercase;
     letter-spacing: 2px;   
     box-sizing: border-box; 
+    text-decoration: none;
     }
 button {
     margin: 5px;
@@ -58,11 +59,12 @@ button {
 main {    
     position: relative;
     top: 200px;
+    z-index: 1;
 }
 .container {
     border: 5px double darksalmon;
     padding: 10px;
-    margin: 5px auto;
+    margin: 10px auto;
 }
 h2 {
     text-align: center;
@@ -151,13 +153,145 @@ h2 {
     font-size: 14px;
     font-family: 'Merriweather', serif;
 }
+#alert button,
+#outline button,
+#animated button,
+#loading button {
+    font-size: 15px;
+    text-align: center;
+    padding: 7px;
+    border-radius: 15%;
+    width: 70%;
+    margin-right: 15px;
+    cursor: pointer;
+}
+#red {
+    background-color: red;
+}
+#red:hover {
+    background-color: orangered;
+}
+#yellow {
+    background-color: yellow;
+}
+#yellow:hover {
+    background-color: yellowgreen;
+}
+#green {
+    background-color: green;
+}
+#green:hover {
+    background-color: lime;
+}
+#danger {
+    border-color: red;
+    color: red;
+}
+#danger:hover {
+    background-color: red;
+    color: white;
+}
+#warning {
+    border-color: yellow;
+    color: yellow;
+}
+#warning:hover {
+    background-color: yellow;
+    color: white;
+}
+#go {
+    border-color: green;
+    color: green;
+}
+#go:hover {
+    background-color: green;
+    color: white;
+}
+#pressed {
+    outline: none;
+    color: #fff;
+    background-color: rgb(91, 66, 231);
+    border: none;
+    box-shadow: 0 9px grey;
+}  
+#pressed:hover {
+    background-color: blue;
+}
+#pressed:active {
+    background-color: blue;
+    box-shadow: 0 5px rgb(54, 54, 54);
+    transform: translateY(4px);
+}
+#ripple {
+    margin-top: 40px;
+    background-color: purple;
+    transition-duration: 0.4s;
+}
+#ripple:after {
+    content: "";
+    background: #90EE90;
+    display: block;
+    position: absolute;
+    padding-top: 10%;
+    padding-left: 20%;
+    margin-left: -10px!important;
+    margin-top: -5%;
+    opacity: 0;
+    transition: all 0.8s;
+}  
+#ripple:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s;
+}
+#text button {
+    border: none;
+    border-radius: 15%;
+    background-color: inherit;
+    padding: 7px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 75%;
+}
+  
+#text button:hover {
+    background: darksalmon;
+}
+#info {
+    color: dodgerblue;
+}
+#default {
+    color: black;
+}
+#more {
+    color: crimson;
+}
+#baby {
+  background-color: #89cff0;
+}
+#cornflower {
+    background-color: #6495ed;
+}
+#true {
+    background-color: #0073cf;
+}
+.fa {
+    margin-left: -12px;
+    margin-right: 8px;
+}
 footer {
-    width: 100%;
     font-weight: bold;
     text-align: center;
     position: fixed;
+    z-index: 1;
     background-color: darksalmon;
-    height: 35px; 
+    height: 45px; 
+    bottom: 0px;
+    right: 15px;
+    left: 15px;
 }
+
 
 

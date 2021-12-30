@@ -13,12 +13,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Licorice&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
   <body>
     <header>
       <h1>My Website Style Guide</h1>
       <nav>
         <ul class="label">
+          <li><button><a href="#buttons">Buttons</a></button></li>
           <li><button><a href="#textStyles">Text styles</a></button></li>
           <li><button><a href="#fonts">Fonts</a></button></li>
           <li><button><a href="#colors">Colors</a></button></li>
@@ -125,9 +127,41 @@
           </ul>
         </div>     
       </div>
+      <div id="buttons" class="container">
+        <h2>Buttons</h2>
+        <div class="panel" id="alert">
+            <p class="underline">Alert</p>
+            <button id="red">Stop</button>
+            <button id="yellow">Alert</button>
+            <button id="green">Success</button>
+        </div>
+        <div class="panel" id="outline">
+            <p class="underline">Outline</p>
+            <button id="danger">Danger!</button>
+            <button id="warning">Warning!</button>
+            <button id="go">Go!</button>
+        </div>
+        <div class="panel" id="animated">
+            <p class="underline">Animated</p>
+            <button id="pressed">Pressed</button>
+            <button id="ripple">Ripple effect</button>
+        </div>
+        <div class="panel" id="loading">
+            <p class="underline">Loading</p>
+            <button id="baby"><i class="fa fa-spinner fa-spin"></i>Loading</button>
+            <button id="cornflower"><i class="fa fa-circle-o-notch fa-spin"></i>Loading</button>
+            <button id="true"><i class="fa fa-refresh fa-spin"></i>Loading</button>
+        </div>
+        <div class="panel" id="text">
+            <p class="underline">Text</p>
+            <button id="info">Info</button>
+            <button id="default">Default</button>
+            <button id="more">More</button>
+        </div>
+      </div>
     </main>
     <footer>
-      <p>Designed by Oksana for a Codecademy project as part of the Full-Stack Engineer Career Path, 2021</p>
+        <p>Designed by Oksana for a Codecademy project as part of the Full-Stack Engineer Career Path, 2021</p>
     </footer>
-  </body>
+    </body>
 </html>
