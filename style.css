@@ -165,7 +165,6 @@ h2 {
     padding: 7px;
     border-radius: 15%;
     width: 70%;
-    margin-right: 15px;
     cursor: pointer;
 }
 #red {
@@ -283,6 +282,9 @@ h2 {
 .fa {
     margin-left: -12px;
     margin-right: 8px;
+}
+#buttons button {
+    float: none;
 }
 footer {
     font-weight: bold;
