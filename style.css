@@ -59,7 +59,9 @@ button {
 }
 main {    
     position: relative;
-    top: 200px;
+    top: 210px;
+    height: 677px;
+    overflow: auto;
     z-index: 1;
 }
 .container {
