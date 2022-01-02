@@ -3,7 +3,7 @@ body {
     margin: 5px 15px;
     padding: 0;
     background-image: url(images/wallpaper.jpg);
-/* Just changed the position to position:    
+/* Just changed the position to position:static to sit the block-level elementon top of the next one*/    
 }
 header {
     position: static;
