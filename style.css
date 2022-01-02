@@ -1,11 +1,12 @@
+/* overflow:none removed */
 body {
-    overflow: none;
     margin: 5px 15px;
     padding: 0;
     background-image: url(images/wallpaper.jpg);
+/* Just changed the position to position:    
 }
 header {
-    position: fixed;
+    position: static;
     z-index: 2;
 }
 h1 {
