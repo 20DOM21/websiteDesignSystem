@@ -20,7 +20,7 @@ h1 {
     font-size: 50px;
     text-align: center;
     padding: 30px auto; 
-    position: fixed;
+    position: static; /*position:fixed changed */
     display: inline-block;
     }
 .label {
