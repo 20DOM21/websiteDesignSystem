@@ -19,7 +19,7 @@ h1 {
     font-family: 'Pushster', cursive;
     font-size: 50px;
     text-align: center;
-    padding: 30px auto; 
+ /* padding 30px auto removed */ 
     position: static; /*position:fixed changed */
     display: inline-block;
     }
@@ -60,9 +60,7 @@ button {
 main {    
     position: relative;
     top: 210px;
-    height: 677px;
-    overflow: auto;
-    z-index: 1;
+    height: 677px; /* overflow:auto removed */
 }
 .container {
     border: 5px double darksalmon;
