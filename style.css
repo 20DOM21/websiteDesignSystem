@@ -6,8 +6,7 @@ body {
 /* Just changed the position to position:static to sit the block-level elementon top of the next one*/    
 }
 header {
-    position: static;
-    z-index: 2;
+    position: static;    /*z-index N/A in this case */
 }
 h1 {
     box-sizing:border-box;
