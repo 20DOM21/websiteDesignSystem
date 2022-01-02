@@ -60,7 +60,8 @@ button {
 main {    
     position: relative;
     top: 210px;
-    height: 677px; /* overflow:auto removed */
+    height: 677px;
+    overflow: none;
 }
 .container {
     border: 5px double darksalmon;
